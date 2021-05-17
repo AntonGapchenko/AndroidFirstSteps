@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">LessonOne</string>
+    <string name="enter_name">Имя</string>
+    <string name="sex">Ваш Пол</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="surname">Фамилия</string>
+    <string name="smoking">Курение:</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="alcohol">Алкоголь:</string>
+    <string name="bad_habits">Вредные привычки</string>
+    <string name="driver_license">Водительское удостоверение</string>
+    <string name="send">Отправить</string>
+    <string name="have">Имеется</string>
+    <string name="have_no">Не имеется</string>
+    <string name="change_activity">Перейти На Второй Экран</string>
+    <string name="password">Пароль</string>
+    <string name="number_password">Числовой пароль</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_number">Телефон</string>
+    <string name="get_info">получить информацию</string>
+
 </resources>
