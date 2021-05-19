@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button send;
     private Button changeActivivty;
     private TextView textViewResult;
-    private String sex;
+    private String gender;
     private String smokingHabit;
     private String alcoholHabit;
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         textViewResult = (TextView) findViewById(R.id.text_view_result);
         changeActivivty = (Button) findViewById(R.id.change_activity);
 
-        sex = getString(R.string.male);
+        gender = getString(R.string.male);
         smokingHabit = getString(R.string.no);
         alcoholHabit = getString(R.string.no);
 
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 driverLicense = getString(R.string.have_no);
             }
-            String result = String.format(" Имя: %s \n Фамилия: %s \n Пол: %s\n Курение: %s\n Алкоголь: %s\n Водительское Удостоверение: %s\n ", name, surname, sex, smokingHabit, alcoholHabit, driverLicense);
+            String result = String.format(" Имя: %s \n Фамилия: %s \n Пол: %s\n Курение: %s\n Алкоголь: %s\n Водительское Удостоверение: %s\n ", name, surname, gender, smokingHabit, alcoholHabit, driverLicense);
             textViewResult.setText(result);
 
         });
@@ -83,9 +83,9 @@ public class MainActivity extends AppCompatActivity {
         RadioButton button = (RadioButton) view;
         int id = button.getId();
         if (id == R.id.radio_button_male) {
-            sex = getString(R.string.male);
+            gender = getString(R.string.male);
         } else if (id == R.id.radio_button_female) {
-            sex = getString(R.string.female);
+            gender = getString(R.string.female);
         }
     }
 }
